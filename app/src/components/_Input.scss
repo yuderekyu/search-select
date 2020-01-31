@@ -1,0 +1,7 @@
+.search-input{
+  border: var(--search-input-border, 1px solid black);
+  font-size: var(--search-input-font-size, 1.125rem);
+  height: var(--search-input-height, 1.875rem);
+  padding: var(--search-input-padding, 0.625rem 2.5rem 0.625rem 0.625rem);
+  width: var(--search-input-width, 18.75rem);
+}

@@ -1,0 +1,10 @@
+.search-select {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.options-list {
+  border: var(--options-list-border, 1px solid black);
+  margin: 0;
+  padding: 0;
+}

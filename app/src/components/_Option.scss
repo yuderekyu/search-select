@@ -1,0 +1,31 @@
+.option {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: var(--option-padding, 0.625rem 2.5rem 0.625rem 0.625rem);
+  width: var(--option-width, 18.75rem);
+
+  .name {
+    color: var(--option-name-color, black);
+    font-weight: var(--option-name-font-weight, 500);
+    font-size: var(--option-name-font-size, 1rem);
+  }
+
+  .location {
+    color: var(--option-location-color, #919191);
+    font-size: var(--option-location-font-size, 0.875rem);
+    font-weight: var(--option-name-font-weight, 300);
+  }
+}
+
+.option.is-focused {
+  background-color: var(--option-is-focused-background-color, #007ac8);
+
+  .name {
+    color: var(--option-is-focused-name-color, white);
+  }
+
+  .location {
+    color: var(--option-is-focused-location-color, #eee);
+  }
+}

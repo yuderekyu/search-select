@@ -1,0 +1,22 @@
+.alternative-theme {
+// Option List
+  --options-list-border: 1px dotted pink;
+
+// Search Input
+  --search-input-border: 1px dotted purple;
+  --search-input-font-size: 1.375rem;
+  --search-input-height: 2rem;
+  --search-input-width: 19.38rem;
+
+// Option Item
+  --option-width: 19.38rem;
+  --option-name-color: blue;
+  --option-name-font-weight: 600;
+  --option-name-font-size: 0.9375rem;
+  --option-location-color: green;
+  --option-location-font-size: 0.8125rem;
+  --option-location-font-weight: green;
+  --option-is-focused-background-color: black;
+  --option-is-focused-name-color: white;
+  --option-is-focused-location-color: grey;
+}
